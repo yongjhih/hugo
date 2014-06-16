@@ -54,7 +54,8 @@ public class HugoActivity extends Activity {
       @DebugLog private void sleepyMethod(long milliseconds) {
         SystemClock.sleep(milliseconds);
       }
-    }, "I'm a lazy thr.. bah! whatever!").start();
+    }, "I'm a lazy thr.. bah! whatever!");
+    sleepyThread.start();
   }
 
   static class Greeter {
